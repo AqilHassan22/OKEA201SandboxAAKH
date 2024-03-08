@@ -1,0 +1,28 @@
+# Bachelor thesis
+
+# Theory
+
+# Methods
+
+## R-code
+
+```{r, echo=T,eval=FALSE}
+2+2
+```
+
+
+| Right | Left | Default | Center |
+|------:|:-----|---------|:------:|
+|    12 | 12   | 12      |   12   |
+|   123 | 123  | 123     |  123   |
+|     1 | 1    | 1       |   1    |
+
+Inline equations $x=f (N,K)$
+
+$$
+Y=C+I+G
+$$
+
+$$
+123=\frac(\frac)(\theta)
+$$
