@@ -6,6 +6,36 @@
 
 ## R-code
 
+```{r}
+source('todos.R')
+```
+
+
+```{r}
+kableExtra kable iris
+```
+
+
+```{r}
+numbers <- c(4,5,8,11)
+sum(numbers)
+```
+
+
+```{r}
+rnorm(n=100, mean = 0, sd = 1)
+```
+
+
+
+```{r}
+now <- as.numeric(substring(paste(Sys.Date()),1,4))
+started <- 2020
+born <- 1995
+spent <- (now-started)/(now-born)*100
+round(spent, digits=4)
+```
+
 ```{r, echo=T,eval=FALSE}
 2+2
 ```
